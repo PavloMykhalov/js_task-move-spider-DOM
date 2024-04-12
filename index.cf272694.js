@@ -1,0 +1,2 @@
+var t=document.querySelector("div"),e=document.querySelector("img");document.addEventListener("click",function(i){if("DIV"===i.target.tagName){var n=i.clientX,c=i.clientY,l=t.getBoundingClientRect(),a=n-l.left-e.clientWidth/2,o=c-l.top-e.clientHeight/2,d=t.clientWidth-e.clientWidth,h=t.clientHeight-e.clientHeight;e.style.left="".concat(Math.min(Math.max(a,0),d),"px"),e.style.top="".concat(Math.min(Math.max(o,0),h),"px")}});
+//# sourceMappingURL=index.cf272694.js.map
